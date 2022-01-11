@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plusminusreactreaduxapp/static/css/main.43c2a4b4.css",
+    "main.js": "/plusminusreactreaduxapp/static/js/main.e4ddf78c.js",
+    "index.html": "/plusminusreactreaduxapp/index.html",
+    "main.43c2a4b4.css.map": "/plusminusreactreaduxapp/static/css/main.43c2a4b4.css.map",
+    "main.e4ddf78c.js.map": "/plusminusreactreaduxapp/static/js/main.e4ddf78c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43c2a4b4.css",
+    "static/js/main.e4ddf78c.js"
+  ]
+}
