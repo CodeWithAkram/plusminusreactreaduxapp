@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+.main_div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.inner_div {
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #274360;
+    box-shadow: 2px 2px 10px 2px #015E7C;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #fff;
+}
+
+h3 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.input_div {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.minus {
+    width: 60px;
+    height: 43px;
+    line-height: 43px;
+    background: #F0F0F0;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    color: #274360;
+    cursor: pointer;
+}
+
+.add {
+    width: 60px;
+    height: 43px;
+    line-height: 43px;
+    background: #F0F0F0;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    color: #274360;
+    cursor: pointer;
+}
+
+.input_text {
+    width: 100px;
+    height: 38px;
+    line-height: 40px;
+    background: #BBBBBB;
+    border: none;
+    font-size: 20px;
+    color: #274360;
+    text-align: center;
+}
+
+.minus:hover, .add:hover {
+    color: #1D3247;
+    background: #D4D4D4;
+}
